@@ -1,6 +1,8 @@
 import * as debug from "debug";
 import {EventEmitter} from "events";
 
+import {EventType} from "./lib";
+
 const d = debug("sim2:Network");
 
 export default class Network {
